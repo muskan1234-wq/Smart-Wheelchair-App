@@ -84,15 +84,6 @@ VoiceControlledWheelchair/
 ```bash
 git clone https://github.com/your-username/voice-controlled-wheelchair.git
 cd voice-controlled-wheelchair
-
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone Repository
-```bash
-git clone https://github.com/your-username/voice-controlled-wheelchair.git
-cd voice-controlled-wheelchair
 2️⃣ Android App Setup
 Open project in Android Studio
 
