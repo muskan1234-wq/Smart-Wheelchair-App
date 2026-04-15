@@ -121,7 +121,7 @@ Solar-powered wheelchair upgrade
 
 👩‍💻 Developer
 Muskan Pathan
-BTech Computer Science & Engineering
+B.Tech Computer Science & Engineering
 Project: Voice Controlled and manually Smart Wheelchair
 
 
