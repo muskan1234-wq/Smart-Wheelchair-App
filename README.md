@@ -54,26 +54,22 @@ The system integrates Arduino Uno, Bluetooth module, and motor driver with a mob
 
 ## 📂 Project Structure
 
-VoiceControlledWheelchair/
-│
-├── app/
-│ ├── java/com/wheelchair/
-│ │ ├── activities/
-│ │ ├── bluetooth/
-│ │ ├── voice/
-│ │ ├── controls/
-│ │ └── utils/
-│ │
-│ ├── res/
-│ │ ├── layout/
-│ │ ├── drawable/
-│ │ └── values/
-│
-├── Arduino Code/
-│ └── wheelchair_control.ino
-│
-├── AndroidManifest.xml
-└── build.gradle
+- VoiceControlledWheelchair
+  - app
+    - java/com/wheelchair
+      - activities
+      - bluetooth
+      - voice
+      - controls
+      - utils
+    - res
+      - layout
+      - drawable
+      - values
+  - ArduinoCode
+    - wheelchair_control.ino
+  - AndroidManifest.xml
+  - build.gradle
 
 
 ---
@@ -130,4 +126,4 @@ Project: Voice Controlled and manually Smart Wheelchair
 
 
 
-Open Pull Request
+
