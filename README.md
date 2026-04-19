@@ -1,129 +1,64 @@
-# 🦽 Voice Controlled Smart Wheelchair
+📌 Project Overview
 
-## 📌 Overview
-This project is a Smart Voice Controlled Wheelchair system designed to help physically challenged or elderly users move independently using voice commands and Android mobile application control.
+The Voice Controlled and Manually Operated Smart Wheelchair is an innovative project designed to assist physically challenged individuals by providing an easy and efficient mobility solution. This system combines Android application development with embedded hardware (Arduino) to enable wheelchair control using both manual buttons and voice commands.
 
-The system integrates Arduino Uno, Bluetooth module, and motor driver with a mobile app developed in Java (Android Studio) to provide smooth and safe wheelchair movement.
+🎯 Features
+🔐 User Registration & Login (Firebase Authentication)
+🎮 Manual Control (Forward, Backward, Left, Right)
+🎤 Voice Control using Google Speech Recognition
+⚡ Speed Control (Fast, Medium, Low)
+🛑 Emergency Stop (Disable Drive Button)
+📶 Bluetooth Connectivity (HC-05 Module)
+💾 Firebase Database Integration
 
----
+🛠️ Technologies Used
 
-## ✨ Key Features
+📱 Software
+Android Studio (Java)
+Firebase (Authentication & Database)
+Google Speech Recognition API
 
-🎤 Voice Control System  
-- Wheelchair controlled using voice commands via mobile app  
-- Commands: Forward, Backward, Left, Right, Stop  
+🔌 Hardware
+Arduino Uno
+HC-05 Bluetooth Module
+L298N Motor Driver
+DC Gear Motors (4)
+12V Batteries
+Wheels & Chassis (Prototype Model)
 
-📱 Mobile App Control  
-- Android app with directional buttons  
-- Microphone button for voice input  
-- Bluetooth connectivity with wheelchair hardware  
+⚙️ Working
+User registers and logs into the Android app
+App connects to HC-05 via Bluetooth
+User gives input (manual buttons or voice command)
+Command is sent to Arduino
+Arduino processes command and controls motors via L298N
+Wheelchair moves accordingly
 
-🔗 Wireless Connectivity  
-- HC-05 Bluetooth module for communication  
-- Real-time command execution  
+📊 System Architecture
 
-🦽 Movement Control  
-- Smooth directional movement  
-- L298N motor driver integration  
-- High stability and safety control  
+Android App → Bluetooth (HC-05) → Arduino Uno → Motor Driver → Motors
 
-⚡ Safety Features  
-- Emergency Stop button  
-- Instant response to commands  
-- Safe speed control  
+🧪 Testing
+✅ Unit Testing (App, Arduino, Bluetooth)
+✅ Integration Testing (Full system communication)
+✅ Real-Time Testing (Wheelchair movement + voice control)
+💰 Cost
 
----
+Total Project Cost ≈ ₹4000 (Low-cost & Affordable Solution)
 
-## 🧱 Tech Stack
-
-### 📱 Android App
-- Java (Android Studio)  
-- XML (UI Design)  
-- Bluetooth API  
-- Voice Recognition API  
-
-### 🔧 Hardware
-- Arduino Uno  
-- HC-05 Bluetooth Module  
-- L298N Motor Driver  
-- DC Geared Motors  
-- Wheels + Wheelchair Frame  
-- Battery (12V)  
-
----
-
-## 📂 Project Structure
-
-- VoiceControlledWheelchair
-  - app
-    - java/com/wheelchair
-      - activities
-      - bluetooth
-      - voice
-      - controls
-      - utils
-    - res
-      - layout
-      - drawable
-      - values
-  - ArduinoCode
-    - wheelchair_control.ino
-  - AndroidManifest.xml
-  - build.gradle
+🚀 Future Scope
+Obstacle Detection System
+GPS Tracking
+IoT / Wi-Fi Control
+AI-Based Voice Assistant
+Health Monitoring System
 
 
----
+👩‍💻 Developed By
 
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone Repository
-```bash
-git clone https://github.com/your-username/voice-controlled-wheelchair.git
-cd voice-controlled-wheelchair
-2️⃣ Android App Setup
-Open project in Android Studio
-
-Sync Gradle files
-
-Connect mobile or emulator
-
-Run the app
-
-3️⃣ Hardware Setup
-Connect motors with L298N driver
-
-Connect HC-05 Bluetooth module to Arduino
-
-Upload Arduino code
-
-Pair mobile app with HC-05
-
-🎤 Voice Commands
-Command	Action
-Forward	Move forward
-Backward	Move backward
-Left	Turn left
-Right	Turn right
-Stop	Stop movement
-
-
-
-🚀 Future Improvements
-AI-based obstacle detection
-
-Voice assistant integration (Google Assistant)
-
-IoT cloud monitoring
-
-GPS tracking system
-
-Solar-powered wheelchair upgrade
-
-👩‍💻 Developer
 Muskan Pathan
-B.Tech Computer Science & Engineering
-Project: Voice Controlled and manually Smart Wheelchair
+B.Tech CSE Student
 
+📄 License
 
-
-
+This project is developed for educational purposes.
