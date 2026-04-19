@@ -1,64 +1,88 @@
-📌 Project Overview
+# 🚀 Voice Controlled & Manually Operated Smart Wheelchair
 
-The Voice Controlled and Manually Operated Smart Wheelchair is an innovative project designed to assist physically challenged individuals by providing an easy and efficient mobility solution. This system combines Android application development with embedded hardware (Arduino) to enable wheelchair control using both manual buttons and voice commands.
+## 📌 Project Overview  
+The Voice Controlled and Manually Operated Smart Wheelchair is an innovative project designed to assist physically challenged individuals by providing an easy and efficient mobility solution.  
+This system combines **Android application development with embedded hardware (Arduino)** to enable wheelchair control using both **manual buttons and voice commands**.
 
-🎯 Features
-🔐 User Registration & Login (Firebase Authentication)
-🎮 Manual Control (Forward, Backward, Left, Right)
-🎤 Voice Control using Google Speech Recognition
-⚡ Speed Control (Fast, Medium, Low)
-🛑 Emergency Stop (Disable Drive Button)
-📶 Bluetooth Connectivity (HC-05 Module)
-💾 Firebase Database Integration
+---
 
-🛠️ Technologies Used
+## 🎯 Features  
 
-📱 Software
-Android Studio (Java)
-Firebase (Authentication & Database)
-Google Speech Recognition API
+- 🔐 User Registration & Login (Firebase Authentication)  
+- 🎮 Manual Control (Forward, Backward, Left, Right)  
+- 🎤 Voice Control using Google Speech Recognition  
+- ⚡ Speed Control (Fast, Medium, Low)  
+- 🛑 Emergency Stop (Disable Drive Button)  
+- 📶 Bluetooth Connectivity (HC-05 Module)  
+- 💾 Firebase Database Integration  
 
-🔌 Hardware
-Arduino Uno
-HC-05 Bluetooth Module
-L298N Motor Driver
-DC Gear Motors (4)
-12V Batteries
-Wheels & Chassis (Prototype Model)
+---
 
-⚙️ Working
-User registers and logs into the Android app
-App connects to HC-05 via Bluetooth
-User gives input (manual buttons or voice command)
-Command is sent to Arduino
-Arduino processes command and controls motors via L298N
-Wheelchair moves accordingly
+## 🛠️ Technologies Used  
 
-📊 System Architecture
+### 📱 Software  
+- Android Studio (Java)  
+- Firebase (Authentication & Database)  
+- Google Speech Recognition API  
 
-Android App → Bluetooth (HC-05) → Arduino Uno → Motor Driver → Motors
+### 🔌 Hardware  
+- Arduino Uno  
+- HC-05 Bluetooth Module  
+- L298N Motor Driver  
+- DC Gear Motors (4)  
+- 12V Batteries  
+- Wheels & Chassis (Prototype Model)  
 
-🧪 Testing
-✅ Unit Testing (App, Arduino, Bluetooth)
-✅ Integration Testing (Full system communication)
-✅ Real-Time Testing (Wheelchair movement + voice control)
-💰 Cost
+---
+
+## ⚙️ Working  
+
+1. User registers and logs into the Android app  
+2. App connects to HC-05 via Bluetooth  
+3. User gives input (manual buttons or voice command)  
+4. Command is sent to Arduino  
+5. Arduino processes command and controls motors via L298N  
+6. Wheelchair moves accordingly  
+
+---
+
+## 📊 System Architecture  
+
+Android App → Bluetooth (HC-05) → Arduino Uno → Motor Driver → Motors  
+
+---
+
+## 🧪 Testing  
+
+- ✅ Unit Testing (App, Arduino, Bluetooth)  
+- ✅ Integration Testing (Full system communication)  
+- ✅ Real-Time Testing (Wheelchair movement + voice control)  
+
+---
+
+## 💰 Cost  
 
 Total Project Cost ≈ ₹4000 (Low-cost & Affordable Solution)
 
-🚀 Future Scope
-Obstacle Detection System
-GPS Tracking
-IoT / Wi-Fi Control
-AI-Based Voice Assistant
-Health Monitoring System
+---
 
+## 🚀 Future Scope  
 
-👩‍💻 Developed By
+- Obstacle Detection System  
+- GPS Tracking  
+- IoT / Wi-Fi Control  
+- AI-Based Voice Assistant  
+- Health Monitoring System  
 
-Muskan Pathan
-B.Tech CSE Student
+---
 
-📄 License
+## 👩‍💻 Developed By  
+
+**Muskan Pathan**  
+B.Tech CSE Student  
+
+---
+
+## 📄 License  
 
 This project is developed for educational purposes.
